@@ -1,0 +1,1 @@
+// LockFreeSPSCQueue is a lock-free single-producer single-consumer queue implementation. It allows one thread to enqueue items while another thread dequeues them without the need for locks, making it suitable for high-performance scenarios where low latency is critical.

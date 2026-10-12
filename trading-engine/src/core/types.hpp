@@ -1,0 +1,1 @@
+// Hold the packed MarketUpdate structs in a lock-free single-producer single-consumer queue. This allows the producer to enqueue MarketUpdate structs while the consumer dequeues them without the need for locks, ensuring low latency and high throughput in a multi-threaded environment.
